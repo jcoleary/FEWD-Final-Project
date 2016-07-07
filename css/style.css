@@ -67,11 +67,8 @@ div{
 }
 
 
-#africaButton:hover
-  {background-color: red;
-  #worldMap{display:none;}
-
-  }
+#africaButton
+  {background-color: red;}
 
 
 
