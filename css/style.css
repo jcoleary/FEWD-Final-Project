@@ -35,6 +35,10 @@ div{
 
 }
 
+#africaSat{
+  display:hidden;
+}
+
 #asiaButton{
   position:relative;
   top: 230px;
