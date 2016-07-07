@@ -28,6 +28,7 @@ h1{
 #continentdiv{
   position:absolute;
   z-index:-1;
+  float:right;
 }
 
 #africaButton{
@@ -37,12 +38,14 @@ h1{
 }
 
 #worldMap {
+  position:relative;
   z-index: 10
 
 }
 
 #africaSat{
   display:hidden;
+
 }
 
 #asiaButton{
