@@ -31,6 +31,10 @@ div{
   left:200px;
 }
 
+#worldMap {
+
+}
+
 #asiaButton{
   position:relative;
   top: 230px;
@@ -64,8 +68,8 @@ div{
 
 
 #africaButton:hover
-  {background-color: red
-   #worldmap {display:none;}
+  {background-color: red;
+  #worldMap{display:none;}
 
   }
 
