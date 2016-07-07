@@ -1,0 +1,72 @@
+header {
+  background-color: #3C3A3A;
+  border-bottom: 5px solid #FEDB0D;
+  width:100%;
+}
+
+h1{
+	color:white;
+	text-align: center
+}
+
+.topnavstyle{
+    text-align:left;
+    list-style: none;
+    float:left;
+    font-weight:400;
+    font-size:20px;
+    display: inline-block
+    margin: 5px;
+    padding: 0.5em;
+    border-right: 3px solid black;
+  }
+
+div{
+    position:absolute;
+}
+
+#worldmap{  
+}
+
+#africaButton{
+  position:relative;
+  top:250px;
+  left:200px;
+}
+
+#asiaButton{
+  position:relative;
+  top: 230px;
+  left:435px;
+}
+
+
+#australiaButton{
+  position:relative;
+  top:475px;
+  left:515px;
+}
+
+#europeButton{
+  position:relative;
+  top: 180px;
+  left:-40px;
+}
+
+#naButton{
+  position:relative;
+  top: 220px;
+  left:870px;
+}
+
+#saButton{
+  position:relative;
+  top: 410px;
+  left:950px;
+}
+
+
+
+
+
+
