@@ -29,14 +29,16 @@ h1{
   position:absolute;
   z-index:1;
   float:right;
-  top:400px;
-  left:400px;
+  top:350px;
+  left:730px;
   color:white;
+  height:100px;
+  width:400px;
 }
 
 #africaButton{
   position:relative;
-  top:350px;
+  top:370px;
   left:200px;
 }
 
@@ -51,38 +53,44 @@ h1{
 
 #asiaButton{
   position:relative;
-  top: 230px;
-  left:435px;
+  top: 260px;
+  left:415px;
 }
 
 
 #australiaButton{
   position:relative;
-  top:475px;
+  top:505px;
   left:515px;
 }
 
 #europeButton{
   position:relative;
-  top: 180px;
+  top: 208px;
   left:-40px;
 }
 
 #naButton{
   position:relative;
-  top: 220px;
+  top: 250px;
   left:870px;
 }
 
 #saButton{
   position:relative;
-  top: 410px;
+  top: 440px;
   left:945px;
 }
 
 
 #africaButton:hover
   {background-color: red;}
+
+p{
+  background-color: black;
+  padding:5px;
+  opacity:0.5;
+}
 
 
 
