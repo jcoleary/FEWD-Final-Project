@@ -1,3 +1,5 @@
-function showAfrica(){
-	document.getElementById("worldMap").style.display="none";
-	document.getElementById("africaSat").style.display="block" 
+$(document).ready(function() {
+    $( '.dropdown' ).hover(
+        function(){
+            $(this).children('.sub-menu').slideDown(200);
+})
