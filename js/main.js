@@ -38,9 +38,11 @@ $('#australiaButton').on('click', function(){
 			type: 'get',
 			url:"http://jcoleary.github.io/continent_profiles"
 		}).done(function(content){
-			var newp = $(content).filter('p');
-			var newText = newp.text();
-			$('.sample').text(newText);
+			var newp = $(content).filter('.australie').html();
+			// var newText = newp.html();
+			$('.sample').html(newp);
+			console.log("newp");
+			console.log(newp);
 		});
 	});
 
@@ -49,10 +51,12 @@ $('#europeButton').on('click', function(){
 		$.ajax({
 			type: 'get',
 			url:"http://jcoleary.github.io/continent_profiles"
-		}).done(function(content){
-			var newp = $(content).filter('p');
-			var newText = newp.text();
-			$('.sample').text(newText);
+			}).done(function(content){
+			var newp = $(content).filter('.europe').html();
+			// var newText = newp.html();
+			$('.sample').html(newp);
+			console.log("newp");
+			console.log(newp);
 		});
 	});
 
@@ -61,10 +65,12 @@ $('#naButton').on('click', function(){
 		$.ajax({
 			type: 'get',
 			url:"http://jcoleary.github.io/continent_profiles"
-		}).done(function(content){
-			var newp = $(content).filter('p');
-			var newText = newp.text();
-			$('.sample').text(newText);
+			}).done(function(content){
+			var newp = $(content).filter('.amerique_du_nord').html();
+			// var newText = newp.html();
+			$('.sample').html(newp);
+			console.log("newp");
+			console.log(newp);
 		});
 	});
 
@@ -73,10 +79,12 @@ $('#saButton').on('click', function(){
 		$.ajax({
 			type: 'get',
 			url:"http://jcoleary.github.io/continent_profiles"
-		}).done(function(content){
-			var newp = $(content).filter('p');
-			var newText = newp.text();
-			$('.sample').text(newText);
+	}).done(function(content){
+			var newp = $(content).filter('.amerique_du_sud').html();
+			// var newText = newp.html();
+			$('.sample').html(newp);
+			console.log("newp");
+			console.log(newp);
 		});
 	});
 
