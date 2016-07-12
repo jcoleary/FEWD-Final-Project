@@ -1,4 +1,4 @@
-header {
+/**header {
   background-color: #3C3A3A;
   border-bottom: 5px solid #FEDB0D;
   width:100%;
@@ -63,6 +63,10 @@ div{
   position:relative;
   top: 410px;
   left:950px;
+}
+
+.sample{
+  display:none;
 }
 
 
