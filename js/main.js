@@ -13,6 +13,7 @@ $(document).ready(function() {
 			var newp = $(content).filter('.afrique');
 			var newText = newp.html();
 			$('.sample').html(newText);
+			console.log("newp");
 			console.log(newp);
 		});
 	});
