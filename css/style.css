@@ -96,6 +96,35 @@ h1{
   color:white;
 }
 
+#asiaButton:hover{
+  background-color: #FFBE00;
+  color:white;
+}
+
+#australiaButton:hover{
+  background-color: #FFBE00;
+  color:white;
+}
+
+#europeButton:hover{
+  background-color: #FFBE00;
+  color:white;
+}
+
+#naButton:hover{
+  background-color: #FFBE00;
+  color:white;
+}
+
+#saButton:hover{
+  background-color: #FFBE00;
+  color:white;
+}
+
+
+
+
+
 .sample{
   background-color: black;
   padding:5px;
