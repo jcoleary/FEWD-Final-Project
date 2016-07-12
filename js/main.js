@@ -10,9 +10,9 @@ $(document).ready(function() {
 			type: 'get',
 			url:"http://jcoleary.github.io/continent_profiles"
 		}).done(function(content){
-			var newp = $(content).filter('.afrique');
-			var newText = newp.html();
-			$('.sample').html(newText);
+			var newp = $(content).filter('.afrique').html();
+			// var newText = newp.html();
+			$('.sample').html(newp);
 			console.log("newp");
 			console.log(newp);
 		});
@@ -23,10 +23,12 @@ $('#asiaButton').on('click', function(){
 		$.ajax({
 			type: 'get',
 			url:"http://jcoleary.github.io/continent_profiles"
-		}).done(function(content){
-			var newp = $(content).filter('div');
-			var newText = newp.text();
-			$('.sample').text(newText);
+			}).done(function(content){
+			var newp = $(content).filter('.asie').html();
+			// var newText = newp.html();
+			$('.sample').html(newp);
+			console.log("newp");
+			console.log(newp);
 		});
 	});
 
