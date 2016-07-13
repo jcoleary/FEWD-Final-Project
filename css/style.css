@@ -8,7 +8,7 @@ html {
 header {
   color:#65A5D1;
   background-color:#03406A;
-  border-bottom: 5px solid #65A5D1;
+  border-bottom: 5px solid #03406A;
   width:100%;
 }
 .topclass{
@@ -120,10 +120,6 @@ h1{
   background-color: #FFBE00;
   color:white;
 }
-
-
-
-
 
 .sample{
   background-color: black;
