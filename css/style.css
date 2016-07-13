@@ -8,7 +8,7 @@ html {
 }
 header {
   color:#65A5D1;
-  background-color:#03406A;
+  background-color:#E2DA99;
   border-bottom: 5px solid #65A5D1;
   width:100%;
 }
@@ -19,6 +19,7 @@ header {
 
 .shortp{
   color:white;
+  background-color: #FE9CA0;
 }
 
 h1{
