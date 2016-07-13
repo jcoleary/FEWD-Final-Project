@@ -51,7 +51,7 @@ $('#europeButton').on('click', function(){
 		$.ajax({
 			type: 'get',
 			url:"http://jcoleary.github.io/continent_profiles"
-			}).done(function(content){
+		}).done(function(content){
 			var newp = $(content).filter('.europe').html();
 			// var newText = newp.html();
 			$('.sample').html(newp);
@@ -59,7 +59,6 @@ $('#europeButton').on('click', function(){
 			console.log(newp);
 		});
 	});
-
 $('#naButton').on('click', function(){
 		$(".sample").show();
 		$.ajax({
