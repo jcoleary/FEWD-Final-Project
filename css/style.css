@@ -4,6 +4,7 @@ html *{
 
 html {
   background-color: #0A64A4;
+
 }
 header {
   color:#65A5D1;
@@ -14,6 +15,10 @@ header {
 .topclass{
   background-color: #080B74;
   color:#4E51D8;
+}
+
+.shortp{
+  color:white;
 }
 
 h1{
